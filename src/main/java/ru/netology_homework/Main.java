@@ -13,10 +13,10 @@ public class Main {
 
         Calculator calc = new Calculator();
         System.out.println(calc.newFormula()
-                        .addOperand(5)
-                        .addOperand(15)
-                        .calculate(Calculator.Operation.MULT)
-                        .result()
+                .addOperand(5)
+                .addOperand(15)
+                .calculate(Calculator.Operation.MULT)
+                .result()
         );
 
 
